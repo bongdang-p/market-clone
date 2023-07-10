@@ -28,6 +28,25 @@ footer{
     transform: scale(0.8);
     margin-top: 5px;
 }
+
+@keyframes icons-doong-doong{
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(-10px)
+        }
+    70%{
+        transform: translateY(-10px)
+    }    
+    100%{
+        transform: translateY(0px)
+    }    
+    }
 .footer-icon__img{
     width: 25px;
+    
+}
+.footer-icons:hover .footer-icon__img{
+    animation: 1.5s icons-doong-doong;
 }
