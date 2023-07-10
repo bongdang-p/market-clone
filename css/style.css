@@ -14,11 +14,10 @@
     justify-items: center;
     align-items: center;
     background-color: antiquewhite;
-    opacity: 1;
     
 }
 @media screen and (max-width: 500px){
     .media-info-msg{
-        opacity: 0;
+        display: none;
     }
 }    
